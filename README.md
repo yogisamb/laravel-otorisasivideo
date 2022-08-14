@@ -7,6 +7,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Catatan Pembuat
+
+Aplikasi telah dibekali Migrate Database
+- Dibekali mediatama.sql yang dapat diimport ke dalam database (jika tidak menghendaki menggunakan migrasi dan database seeder)
+- Jika berkenan menggunakan migrasi, Data tabel dapat di isikan secara otomatis dengan menuliskan "php artisan migrate:fresh"
+- Kemudian di bekali juga database Seeder untuk menuliskan isi dari tabel user untuk mengakses aplikasi
+- database seeder dapat dilakukan otomatis dengan menuliskan "php artisan db:seed"
+- Login Admin : email->admin@google.com | password->12345678i
+- Login User : email->user@google.com | password->12345678i
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
